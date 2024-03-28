@@ -1,0 +1,64 @@
+.add-movie-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  left: 0;
+  top: 0px; /* Ajustez ceci selon où vous voulez le bouton verticalement */
+  margin-left: 10px; /* Ajoutez une petite marge si nécessaire */
+  /* Ajoutez d'autres styles de bouton ici si nécessaire */
+  padding: 12px 24px; /* Augmentation du padding */
+  font-size: 18px; /* Augmentation de la taille de la police */
+}
+
+.add-movie-button {
+  background-color: #09b7f1;
+}
+
+  
+  .movie-form-container {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    padding: 20px;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transition: transform 0.5s ease;
+    z-index: 1000;  /* S'assure qu'il est au-dessus d'autres éléments */
+    overflow: auto; /* Permettre le défilement si nécessaire */
+
+  }
+  
+  .rajout-film-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rajout-film-form input,
+  .rajout-film-form textarea{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .rajout-film-form button {
+
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rajout-film-form button:hover {
+  background-color: #41d913;
+}
